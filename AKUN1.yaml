@@ -63,3 +63,33 @@ proxies:
       headers:
         Host: id2-ray.ipservers.xyz
     udp: true
+  - name: AKUN5
+    server: quiz.int.vidio.com
+    port: 443
+    type: vless
+    uuid: 07747c81-c480-4768-ac90-fccf76ad2864
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id1vless.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /jagoanssh
+      headers:
+        Host: id1vless.ipservers.xyz
+    udp: true
+  - name: AKUN6
+    server: quiz.int.vidio.com
+    port: 443
+    type: vless
+    uuid: 4974d864-6e59-485e-a024-22c1fd3c9658
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id2vless.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /jagoanssh
+      headers:
+        Host: id2vless.ipservers.xyz
+    udp: true
