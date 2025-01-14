@@ -1,6 +1,6 @@
 proxies:
   - name: AKUN1
-    server: bug.com
+    server: quiz.int.vidio.com
     port: 443
     type: vmess
     uuid: e200e6c5-f946-4501-9ae9-c04a1bd65dc9
@@ -16,7 +16,7 @@ proxies:
         Host: id1-ray.ipservers.xyz
     udp: true
   - name: AKUN2
-    server: id1-ray.ipservers.xyz
+    server: quiz.int.vidio.com
     port: 80
     type: vmess
     uuid: e200e6c5-f946-4501-9ae9-c04a1bd65dc9
@@ -24,15 +24,15 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: bug.com
+    servername: id1-ray.ipservers.xyz
     network: ws
     ws-opts:
       path: /JAGOANSSH/
       headers:
-        Host: bug.com
+        Host: id1-ray.ipservers.xyz
     udp: true
   - name: AKUN3
-    server: bug.com
+    server: quiz.int.vidio.com
     port: 443
     type: vmess
     uuid: 4652890a-0ec8-455b-be67-e196ad8d5e86
@@ -48,7 +48,7 @@ proxies:
         Host: id2-ray.ipservers.xyz
     udp: true
   - name: AKUN4
-    server: id2-ray.ipservers.xyz
+    server: quiz.int.vidio.com
     port: 80
     type: vmess
     uuid: 4652890a-0ec8-455b-be67-e196ad8d5e86
@@ -56,10 +56,10 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: bug.com
+    servername: id2-ray.ipservers.xyz
     network: ws
     ws-opts:
       path: /JAGOANSSH/
       headers:
-        Host: bug.com
+        Host: id2-ray.ipservers.xyz
     udp: true
